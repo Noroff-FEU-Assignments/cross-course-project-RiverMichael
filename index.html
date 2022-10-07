@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My first website</title>
+  </head>
+  <body>
+    <h1>Hello world!</h1>
+    <p>Welcome to my first website.</p>
+    <h2>Web Security</h2>
+    <p id="web-security-question">
+      How would you advise a potential client to secure his/her website from web
+      security attacks? Note: the word count for your answer should not be
+      greater than 250 words
+    </p>
+    <p id="web-security-answer">
+      To start with, I would explain the different security threats such as
+      cross-site scripting (XSS), SQL injections, and cross-site request forgery
+      (XSRF). I would then advise including everyone that is working on the
+      project in the security practices. This will make everyone aware of the
+      security threats and understand the potential vulnerabilities.<br />Then I
+      would advise my client to ensure their web server uses HTTPS instead of
+      HTTP. This means that the communication between the server and client is
+      encrypted and could make information such as login credentials harder to
+      access for hackers. Also, make sure that automatic user timeout is
+      implemented. This makes sure that important user credentials do not stay
+      in the browser. I would also suggest using effective password management
+      such as strong passwords and a two-factor authentication system.<br />If
+      they are using a third-party application, I would tell them to make sure
+      that it is a trusted and tested application.<br />Ensure that all
+      user-originating data is sanitized before it is displayed in the browser,
+      used in SQL queries, or passed to an operating or file system, and only
+      allow the storage and display of the data that is really needed. An
+      example of this is to only show the last 4 digits of a credit card.<br />Finally,
+      make sure that security testing is being done from the start of the
+      project and not only when the website is finished. This should include
+      CI/CD, vulnerability scanning and also security exercises.
+    </p>
+  </body>
+</html>
